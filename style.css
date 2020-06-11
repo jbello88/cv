@@ -20,33 +20,20 @@ body {
 
 header {
   margin-top: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header .headertxt {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
   margin-bottom: -6px;
 }
 
+header .pic {
+  max-width: 150px;
+}
+
 header h2 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 2px;
 }
 
@@ -72,43 +59,16 @@ header a:hover {
   color: #cf8a05;
 }
 
-#headshot {
-  width: 10%;
-  margin-right: 30px;
-}
-
-#headshot img {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
 section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 1px solid #dedede;
-  padding: 20px 0 20px 0;
+  margin-top: 1rem;
 }
 
 section ul {
-  margin-top: 4px;
   list-style-type: none;
 }
 
 section li {
   margin-bottom: 6px;
-}
-
-section:first-child {
-  border-top: 0;
-}
-
-.sectionTitle {
-  width: 25%;
 }
 
 .sectionTitle h1 {
@@ -117,13 +77,9 @@ section:first-child {
   color: #cf8a05;
 }
 
-.sectionContent {
-  width: 72.5%;
-}
-
 .sectionContent h2 {
   font-size: 1.5em;
-  margin-bottom: -2px;
+  margin-bottom: 0;
 }
 
 article {
@@ -137,6 +93,7 @@ article:first-child {
 article h3 {
   font-size: 1.2em;
   margin-top: 10px;
+  margin-bottom: -3px;
 }
 
 /*article h3 {
@@ -146,8 +103,7 @@ article h3 {
 .subDetails {
   font-size: 0.8em;
   font-style: italic;
-  margin-bottom: 3px;
-  margin-top: 3px;
+  margin: 0;
 }
 
 .keySkills {
