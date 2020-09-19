@@ -28,6 +28,8 @@ header h1 {
 
 header .pic {
   max-width: 7rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 header h2 {
@@ -97,19 +99,20 @@ article:first-child {
 article h3 {
   font-size: 1.2rem;
   margin-top: 0.6em;
-  margin-bottom: -0.2em;
+  margin-bottom: 0.2em;
 }
 
 .subDetails {
   font-size: 0.8rem;
   font-style: italic;
   margin: 0;
+  margin-bottom: 0.5em;
 }
 
 .keySkills {
   list-style-type: none;
   -webkit-column-count: 2;
-          column-count: 2;
+  column-count: 2;
   margin-bottom: 20px;
   color: #444;
 }
@@ -134,7 +137,7 @@ article h3 {
   }
   .keySkills {
     -webkit-column-count: 3;
-            column-count: 3;
+    column-count: 3;
   }
 }
 
